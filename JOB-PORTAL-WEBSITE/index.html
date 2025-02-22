@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job portal website</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+       <div class="container">
+
+           <div class="apply_box">
+
+              <h1><u>Job portal 
+                  <span class="title_big">(website)</span></u>
+              </h1>
+
+             <form action="">
+                <div class="form_container">
+
+                    <div class="form_control">
+                        <label for="first_name">First name</label>
+                        <input id="first_name"
+                               name="first_name"
+                               placeholder="Enter first name"/>
+                    </div>
+
+
+
+                    <div class="form_control">
+                        <label for="last_name">Last name</label>
+                        <input id="last_name"
+                               name="last_name"
+                               placeholder="Enter last name"/>
+                     </div>
+
+
+
+
+                    <div class="form_control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email"
+                               name="email"
+                               placeholder="Enter your email"/>
+                    </div>
+
+
+
+                    <div class="form_control">
+                        <label for="job_role">Job role</label>
+                        <select id="job_role" name="job_role">
+                            <option value="">select your jobe role </option>
+                            <option value="Frontend">Frontend Developer</option>
+                            <option value="Backend">Backend Developer</option>
+                            <option value="Full_stack">fullstack Developer</option>
+                            <option value="Android">Android Developer</option>    
+                        </select>
+                    </div>
+
+
+
+                    <div class="textarea_control">
+                        <label for="address">address</label> 
+                        <textarea id="address" name="address" rows="1" cols="32"
+                         placeholder="Enter your address">
+                        </textarea>
+                    </div>
+
+
+
+                    <div class="form_control">
+                        <label for="city">city</label>
+                        <input id="city"
+                               name="city"
+                               placeholder="Enter city name"/>
+                    </div>
+
+
+
+                    <div class="form_control">
+                        <label for="pincode">pincode</label>
+                        <input type="number" 
+                               id="pincode"
+                               name="pincode"
+                               placeholder="Enter pincode"/>
+                    </div>
+
+
+
+                    <div class="form_control">
+                        <label for="date">Date</label>
+                        <input value="2006-03-21" type="date" 
+                               id="date"
+                               name="date"/>
+                    </div>
+
+
+
+                    <div class="form_control">
+                        <label for="upload">upload your CV</label>
+                        <input type="file"
+                               id="upload"
+                               name="upload"/>
+                    </div>
+
+          </div>
+
+
+                <div class="button_container">
+                      <button type="submit">Apply now</button>
+                  </div>
+
+               </form> 
+            </div>
+       </div>
+</body>
+</html>
